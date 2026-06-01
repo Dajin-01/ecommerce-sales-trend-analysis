@@ -10,7 +10,7 @@ WITH filtered_data AS (
         CustomerID,
         FORMAT_DATE('%Y-%m', DATE(TIMESTAMP(InvoiceDate))) AS Month,
         Quantity * UnitPrice AS Revenue
-    FROM `prime_career.ecommerce_data`
+    FROM `ecommerce_data`
     WHERE
         InvoiceNo NOT LIKE 'C%'
         AND LENGTH(StockCode) >= 5
