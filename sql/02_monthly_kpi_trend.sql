@@ -12,7 +12,7 @@ WITH cleaned_data AS (
         COALESCE(CAST(CustomerID AS STRING), 'Guest') AS CustomerID,
         Country,
         Quantity * UnitPrice AS Revenue
-    FROM `prime_career.ecommerce_data`
+    FROM `ecommerce_data`
     WHERE
         InvoiceNo NOT LIKE 'C%'
         AND LENGTH(StockCode) >= 5
