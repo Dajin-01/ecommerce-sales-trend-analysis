@@ -3,7 +3,7 @@
 
 WITH cleaned_data AS (
     SELECT *
-    FROM `prime_career.ecommerce_data`
+    FROM `ecommerce_data`
     WHERE
         InvoiceNo NOT LIKE 'C%'
         AND LENGTH(StockCode) >= 5
