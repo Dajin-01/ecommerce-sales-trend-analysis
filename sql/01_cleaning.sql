@@ -13,7 +13,7 @@ WITH cleaned_data AS (
         CustomerID,
         Country,
         Quantity * UnitPrice AS Revenue
-    FROM `prime_career.ecommerce_data`
+    FROM `ecommerce_data`
     WHERE
         InvoiceNo NOT LIKE 'C%'          -- exclude cancelled transactions
         AND LENGTH(StockCode) >= 5       -- exclude non-product codes
