@@ -202,13 +202,13 @@ CustomerID 미기록 거래 비중, CustomerID 미기록 매출 비중, Customer
 
 고객 세그먼트별 매출 비중을 시각화하여, 매출이 VIP 고객군에 집중되어 있는지 확인했습니다.
 
-![RFM Revenue Share](images/rfm_revenue_share.svg)
+![RFM Revenue Share](images/rfm_revenue_share.png)
 
 ### RFM Customer Count by Segment
 
 고객 세그먼트별 고객 수를 시각화하여, 고객 수와 매출 기여도가 반드시 비례하지 않는다는 점을 확인했습니다.
 
-![RFM Customer Count](images/rfm_customer_count.svg)
+![RFM Customer Count](images/rfm_customer_count.png)
 
 상세 SQL과 요약은 `sql/05_rfm_segmentation.sql` 및 `report/executive_summary.md`에서 확인할 수 있습니다.
 
