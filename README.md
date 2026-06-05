@@ -219,21 +219,10 @@
 - 상품 카테고리 정보가 없어 상품군별 분석은 `Description` 기반으로 추정해야 합니다.
 - 외부 요인, 캠페인 여부, 재고 상황, 유입 채널 데이터가 없어 매출 변화의 원인을 완전히 설명하기는 어렵습니다.
 
----
-
-## 11. Next Steps
-
-- RFM 분석을 통한 VIP, 이탈위험, 신규 고객 세그먼트 분류
-- 국가별 매출, 주문수, 객단가 비교
-- 상품별 연말 판매 기여도 분석
-- 취소/반품 거래 패턴 분석
-- 2011년 12월 run-rate 기반 월말 매출 추정
-- 회원가입 유도 캠페인 A/B 테스트 설계
-- 하절기 리텐션 캠페인 효과 측정 설계
 
 ---
 
-## 12. Project Structure
+## 11. Project Structure
 
 ```text
 sales-trend-analysis/
@@ -259,12 +248,3 @@ sales-trend-analysis/
 ```
 
 ---
-
-## 13. Tools Used
-
-- SQL / BigQuery
-- Google Sheets
-- Excel
-- Word
-- Data Visualization
-- Cohort Analysis
